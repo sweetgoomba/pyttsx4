@@ -4,6 +4,7 @@ from AppKit import NSSpeechSynthesizer
 from PyObjCTools import AppHelper
 from ..voice import Voice
 from objc import super
+import objc
 
 
 def buildDriver(proxy):
